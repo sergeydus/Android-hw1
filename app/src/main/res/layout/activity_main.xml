@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eric Bobcat"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/datename"
+        />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_below="@+id/datename"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/dateimage"
+            android:layout_width="wrap_content"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_height="wrap_content"
+            android:src="@drawable/none4018__700" />
+        <ImageButton
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:src="@drawable/heart"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/dateimage"
+            android:background="@android:color/transparent"
+            android:onClick="like"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="You've loved me 0 times"
+            android:textSize="20sp"
+            android:id="@+id/likes"
+            android:layout_marginTop="10px"/>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</RelativeLayout>
