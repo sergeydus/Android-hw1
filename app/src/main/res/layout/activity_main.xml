@@ -16,37 +16,40 @@
         />
 
     <android.support.v7.widget.LinearLayoutCompat
-        android:layout_below="@+id/datename"
-        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/datename"
+        android:layout_marginTop="-2dp"
         android:gravity="center"
         android:orientation="vertical">
+
         <ImageView
-            android:layout_weight="1"
             android:id="@+id/dateimage"
             android:layout_width="wrap_content"
-            android:scaleType="fitCenter"
-            android:adjustViewBounds="true"
-            android:layout_height="wrap_content"
-            android:src="@drawable/none4018__700" />
-        <ImageButton
-            android:layout_height="100dp"
-            android:layout_width="100dp"
-            android:src="@drawable/heart"
-            android:adjustViewBounds="true"
-            android:scaleType="fitCenter"
-            android:layout_below="@+id/dateimage"
-            android:background="@android:color/transparent"
-            android:onClick="like"/>
-        <TextView
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="You've loved me 0 times"
-            android:textSize="20sp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/none4018__700" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/dateimage"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:onClick="like"
+            android:scaleType="fitCenter"
+            android:src="@drawable/heart" />
+
+        <TextView
             android:id="@+id/likes"
-            android:layout_marginTop="10px"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_weight="1"
+            android:text="You've loved me 0 times"
+            android:textSize="20sp" />
     </android.support.v7.widget.LinearLayoutCompat>
 
 </RelativeLayout>

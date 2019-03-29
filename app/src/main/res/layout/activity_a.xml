@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AActivity">
+
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/womanName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Barbra Wonderful" />
+
+    <ImageView
+        android:id="@+id/womanImageA"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/womanName"
+        app:srcCompat="@drawable/wamen" />
+
+    <LinearLayout
+        android:paddingLeft="50sp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/womanImageA"
+        android:layout_centerHorizontal="true"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:id="@+id/HeartA"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/heart" />
+        <TextView
+            android:id="@+id/numLikes"
+            android:paddingLeft="20sp"
+            android:textSize="50sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Likes: 0" />
+    </LinearLayout>
+
+
+</RelativeLayout>
