@@ -5,3 +5,11 @@ Sergey Dushevski - sergeydus - 313313991
 Ron
 Roy
 EDIT URSELVES IN 
+
+
+
+
+
+AActivity-Alex
+MainActivity-Sergey
+RActivity-ron
