@@ -23,7 +23,7 @@ public class RActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 likes++;
-                counter.setText(likes);
+                counter.setText("likes:" + likes);
             }});{}
           }
     }
