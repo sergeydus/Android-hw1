@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+
+
+
+    <ImageView
+        android:id="@+id/geralt"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:contentDescription="profile picture"
+        android:scaleType="fitCenter"
+        android:src="@drawable/geralt_pose" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/geralt"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/Like"
+            android:layout_width="125dp"
+            android:layout_height="77dp"
+            android:layout_toRightOf="@+id/mycounter"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="clicked"
+            android:scaleType="fitCenter"
+            android:src="@drawable/heart"
+            android:textSize="36dp" />
+
+        <TextView
+            android:id="@+id/mycounter"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="4"
+            android:contentDescription="show number of likes"
+            android:fontFamily="casual"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="@android:dimen/notification_large_icon_height" />
+
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/geralt"
+        android:fontFamily="serif"
+        android:textColor="@color/address"
+        android:layout_marginTop="646dp"
+        android:layout_marginBottom="-80dp"
+        android:text="Do You Like What You See?"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+
+
+</RelativeLayout>
