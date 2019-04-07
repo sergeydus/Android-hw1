@@ -69,7 +69,7 @@ public class MainPageActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void openActivity4(){
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, RoiActivity.class);
         startActivity(intent);
     }
     public void openActivity5(){

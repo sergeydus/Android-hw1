@@ -2,4 +2,6 @@
     <string name="app_name">My Application</string>
     <string name="title_activity_a">AActivity</string>
     <string name="title_activity_roi">RoiActivity</string>
+    <string name="title_activity_r">RActivity</string>
 </resources>
+
