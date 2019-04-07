@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 //        Button clicker= findViewById(R.id.clicker);
-//        clicker.setText("CLICK ME TO START TTHEGAEM OR ELSE");
+//        clickersetText("CLICK ME TO START TTHEGAEM OR ELSE");
 //        TextView results= findViewById(R.id.results);
 //        results.setText("YOU'VE CLICKED ME "+Timesclicked+" TIMES!");
 //

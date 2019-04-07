@@ -10,10 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".AActivity"
-            android:label="@string/title_activity_a"
-            android:exported="true"
+            android:name=".RoiActivity"
+            android:label="@string/title_activity_roi"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".AActivity"
+            android:exported="true"
+            android:label="@string/title_activity_a"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
