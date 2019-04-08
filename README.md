@@ -1,12 +1,12 @@
 # Android-hw1
 hw1
-<h1 style="background: green;">
+<h1 style="color: green;">
 Alex Dushevski - Tehheavy - 313313983
 <br/>
 AActivity
 </h1>
 <br/>
-<h1 style="background: blue;">
+<h1 style="color: blue;">
 Sergey Dushevski - sergeydus - 313313991
 </br>
 MainActivity
@@ -21,9 +21,7 @@ Ron 305432049
 <br/>
 RActivity
 </h1>
-```html
-<div style="background:purple>test</div>
-```
+
 
 
 
