@@ -1,13 +1,10 @@
 # Android-hw1
 hw1
-<h1 style="font-size: 72px;
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;">
+<h1 style="background: green;">
 Alex Dushevski - Tehheavy - 313313983
 </h1>
 <br/>
-<h1>
+<h1 style="background: blue;">
 Sergey Dushevski - sergeydus - 313313991
 </h1>
 <br/>
@@ -16,7 +13,7 @@ Sergey Dushevski - sergeydus - 313313991
 </h1>
 <br/>
 <h1>
-Ron
+Ron 305432049
 </h1>
 
 
