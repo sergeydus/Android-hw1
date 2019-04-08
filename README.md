@@ -1,13 +1,12 @@
 # Android-hw1
 hw1
-<style>h1{color:red;}</style>
-<h1 style="color: green;">
+<h1 >
 Alex Dushevski - Tehheavy - 313313983
 <br/>
 AActivity
 </h1>
 <br/>
-<h1 style="color: blue;">
+<h1 >
 Sergey Dushevski - sergeydus - 313313991
 </br>
 MainActivity
