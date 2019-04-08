@@ -8,6 +8,8 @@ AActivity
 <br/>
 <h1 style="background: blue;">
 Sergey Dushevski - sergeydus - 313313991
+</br>
+MainActivity
 </h1>
 <br/>
 <h1>
